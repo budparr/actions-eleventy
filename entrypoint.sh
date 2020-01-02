@@ -1,4 +1,4 @@
 #!/bin/sh
 
 echo "Running eleventy"
-eleventy $INPUT_ARGS
+cross-env $INPUT_ARGS eleventy 
